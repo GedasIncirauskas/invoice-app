@@ -1,0 +1,15 @@
+.Avatar {
+  img {
+    border-radius: 100px;
+    width: 45px;
+  }
+}
+
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+  .Avatar {
+    img {
+      display: none;
+    }
+  }
+}

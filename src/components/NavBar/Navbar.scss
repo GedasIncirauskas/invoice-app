@@ -1,0 +1,15 @@
+.B {
+  a {
+    font-size: 17px;
+    color: black;
+    text-align: center;
+  }
+}
+
+.B a:hover,
+.B a:active,
+.B a.active {
+  color: black;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+}
